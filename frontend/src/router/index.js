@@ -33,6 +33,7 @@ import copyHistoryInfo from "../components/copyHistoryInfo";
 import copyHistoryInfoAppointed from "../components/copyHistoryInfoAppointed";
 import copyHistoryInfoRegistered from "../components/copyHistoryInfoRegistered";
 import UserManagement from "../components/UserManagement";
+import UserManagementV1 from '../components/UserManagementV1';
 import BookCheck from "../components/BookCheck";
 import searchFineInfo from "../components/searchFineInfo";
 import resetUser from "../components/resetUser";
@@ -185,7 +186,14 @@ export const router = new Router({
               //   requireAuth:true
               // }
             },
-
+            {
+              path:"usermanagementv1",
+              name:"UserManagementv1",
+              component: UserManagementV1,
+              meta: {
+                title: "用户信息管理"
+              }
+            },
                 {
                   path: "historyRegistered",
                   name: "historyRegistered",

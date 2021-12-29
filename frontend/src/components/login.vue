@@ -44,6 +44,17 @@ export default{
   methods: {
     ...mapMutations(['changeLogin']),
     login () {
+
+
+
+      this.changeLogin({
+        Authorization:'dummy',
+        username: 'jason',
+      });
+      //console.log("username is:"+localStorage.getItem('username'));
+      this.$router.replace( '/homepage')
+
+
       const _this = this;
       axios.post('/login', {
           username: this.loginForm.username,

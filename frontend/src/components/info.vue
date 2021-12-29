@@ -23,11 +23,15 @@
         <el-button  @click="$router.push({name:'modify'})">修改密码</el-button>
         <el-menu>
             <el-menu-item-group>
-              <el-menu-item index="1" @click="$router.push({name:'fineInfo'})">查看罚款</el-menu-item>
-              <el-menu-item index="4" @click="$router.push({name:'infoAppointed'})">借取/预约记录</el-menu-item>
-              <el-menu-item index="5" @click="$router.push({name:'historyRegistered'})">历史借阅记录</el-menu-item>
-              <el-menu-item index="6" @click="$router.push({name:'userBookComment'})">评论记录</el-menu-item>
-              <el-menu-item index="7" @click="$router.push({name:'userCredit'})">信用流水</el-menu-item>
+              <!-- <el-menu-item index="1" @click="$router.push({name:'fineInfo'})">查看罚款</el-menu-item> -->
+              <!-- <el-menu-item index="4" @click="$router.push({name:'infoAppointed'})">借取/预约记录</el-menu-item> -->
+              <!-- <el-menu-item index="5" @click="$router.push({name:'historyRegistered'})">历史借阅记录</el-menu-item> -->
+              <!-- <el-menu-item index="6" @click="$router.push({name:'userBookComment'})">评论记录</el-menu-item> -->
+              <!-- <el-menu-item index="7" @click="$router.push({name:'userCredit'})">信用流水</el-menu-item> -->
+
+              <el-menu-item index="1" @click="$router.push({name:'UserManagementv1'})">查看资料</el-menu-item>
+
+
 <!--              <el-submenu index="2">-->
 <!--                <template slot="title"><i class="el-icon-menu"></i>历史记录</template>-->
 <!--                <el-menu-item-group>-->
