@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "vant": "^2.12.9"
+  }
+}
